@@ -1,0 +1,48 @@
+.ic2ustyazi{
+    text-align: center;
+    margin: auto;
+    width: 23%;
+    margin-bottom: 60px;
+}
+
+.ic2yazi1{
+    color: #ff5e15;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.ic2yazi2{
+    font-weight: 300;
+}
+
+.cards{
+    width: 100%;
+    height: 300px;
+    padding: 37.5px 14%;
+}
+
+.card{
+    overflow: hidden;
+    padding: 10px;
+    width: 20%;
+    position: relative;
+    height: 225px;
+    display: inline-block;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    margin-right: -5px;
+}
+
+.cardsayi{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: rgba(128, 128, 128, 0.486);
+}
+
+.cardyazi span{
+    color: rgba(128, 128, 128, 0.791);
+}
+
+.cardres{
+    margin-bottom: .5vw;
+}

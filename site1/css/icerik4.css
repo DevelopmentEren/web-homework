@@ -1,0 +1,136 @@
+*{
+    outline: none;
+}
+
+.icerik4{
+    width: 100%;
+    height: 600px;
+}
+
+.ic4res{
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.ic4form{
+    padding: 5rem;
+    width: 40%;
+    height: 95%;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+.ic4res img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.ic4form h2{
+    font-weight: 400;
+    color: #ff5e15;
+}
+
+.ic4form h1{
+    font-weight: 400;
+}
+
+.ic4frm{
+    margin-top: 40px;
+}
+
+.ic4btn{
+    transition: .2s;
+    display: inline-block;
+    background-color: #ff5e15;
+    color: white;
+    padding: 10px 0;
+    margin-right: 20px;
+    width: 135px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ic4btn:hover{
+    transition: .2s;
+    background-color: black;
+}
+
+.ic4btn a{
+    color: white;
+}
+
+.text{
+    display: inline-block;
+    padding: 10px 0;
+    margin-right: 20px;
+    width: 135px;
+    height: 40px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+#text{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:1025px) {
+    .text2{
+        display: inline-block;
+        padding: 10px 0;
+        margin-right: 20px;
+        width: 205px;
+        height: 50px !important;
+        border-bottom: 2px solid gray;
+        margin-bottom: 10px;
+    }
+}
+
+.text2{
+    display: inline-block;
+    padding: 10px 0;
+    margin-right: 20px;
+    width: 135px;
+    height: 200px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+#text2{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 16px;
+}
+
+#text::-moz-placeholder {
+    color:white;
+    opacity: 1;
+  }
+  #text:-ms-input-placeholder {
+    color:white;
+  }
+  #text::-webkit-input-placeholder {
+    color:white;
+  }
+
+  #text2::-moz-placeholder {
+      color:white;
+      opacity: 1;
+    }
+    #text2:-ms-input-placeholder {
+      color:white;
+    }
+    #text2::-webkit-input-placeholder {
+      color:white;
+    }

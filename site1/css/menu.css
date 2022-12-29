@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: black;
+    color: white;
+}
+
+.menu-top{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    padding: 40px 10%;
+}
+
+@media only screen and (max-width:1500px) {
+.menu-top{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    padding: 40px 10% !important;
+}
+.tic1yazi{
+    display: inline-block;
+    width: 200px !important;
+}
+}
+
+.top-logo{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.top-icon{
+    display: inline-block;
+}
+
+.topic1{
+display: inline-block;
+}
+
+.top-icon1{
+    color: rgb(255, 94, 0);
+    display: inline-block;
+    margin-right: .3vw;
+}
+
+.tic1yazi{
+    display: inline-block;
+    width: 250px;
+}
+
+.ti1y1{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.ti1y2{
+color: rgba(0, 0, 0, .5);
+}
+
+.menu-bottom{
+    transition: .3s;
+    z-index: 99999999999999999999999999999;
+    top: 0;
+    position: sticky;
+    background-color: #ff5e15;
+    height: 85px;
+    width: 100%;
+    padding: 0px 10%;
+}
+
+#menuli,#menuli1,#menuli2,#menuli3,#menuli4,#menuli5{
+    transition: .3s;
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.b-ic li a{
+    transition: .3s;
+    font-weight: 700;
+    color: white;
+}
+
+.b-ic li a:hover{
+    transition: .3s;
+    color: black;
+}
+
+.diger{
+    height: 1000px;
+    background-color: aqua;
+}
+
+.kay{
+    transition: .3s;
+    height: 70px !important;
+}
+
+.menuli{
+    transition: .3s;
+    padding: 20px 20px !important;
+}

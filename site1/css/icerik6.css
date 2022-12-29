@@ -1,0 +1,46 @@
+.icerik6{
+    margin-top: 300px;
+    padding: 0 10%;
+    padding-bottom: 100px;
+}
+
+.ic6yazi{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.ic6yazi h2{
+    font-weight: 400;
+    color: #ff5e15;
+}
+
+.ic6yazi h1{
+    font-weight: 400;
+}
+
+.ic6alt{
+    width: 100%;
+    height: 300px;
+}
+.ic6alt1{
+    width: 47%;
+    height: 100%;
+    display: inline-block;
+}
+
+.ic6alt1 img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.alinti{
+    font-size: 22px;
+}
+
+.yazar{
+    font-size: 18px;
+    color: #ff5e15;
+    font-weight: 400;
+}

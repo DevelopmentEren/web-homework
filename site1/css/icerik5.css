@@ -1,0 +1,149 @@
+.icerik5{
+    width: 100%;
+    height: 700px;
+    background-color: #09162a;
+    padding: 5% 10%;
+}
+
+.ic5ust{
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+.ic5ust h2{
+    color: #ff5e15;
+    font-weight: 400;
+}
+
+.ic5ust h1{
+    font-weight: 400;
+}
+
+.ic5res{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.sag1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    top: 47%;
+    right: 5.8%;
+    z-index: 9999999999999;
+    cursor: pointer;
+}
+
+.sol1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    top: 47%;
+    left: 0;
+    cursor: pointer;
+    z-index: 9999999999999;
+}
+
+.ic5res img{
+    transition: .2s;
+    width: 100%;
+    height: 100%;
+}
+
+.ic5res1:hover img{
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+.ic5res2:hover img{
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+.ic5res3:hover img{
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+.ic5res1,.ic5res2,.ic5res3{
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    height: 550px;
+position: relative;
+}
+
+.ic5res1,.ic5res2{
+    margin-right: 1.605%;
+}
+
+.ic5back{
+    transition: .3s;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    position: absolute;
+    top:0%;
+    left: 0;
+}
+
+.ic5res1:hover .ic5back{
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.ic5res2:hover .ic5back{
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.ic5res3:hover .ic5back{
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.ic5yazi{
+    transition: .3s;
+    width: 100%;
+    height: 150px;
+    color: white;
+    position: absolute;
+    left: 1%;
+    bottom: -30%;
+    z-index: 999999999;
+}
+
+.ic5res1:hover .ic5yazi{
+    transition: .3s;
+    left: 1%;
+bottom: -13% !important;
+}
+
+.ic5res2:hover .ic5yazi{
+    transition: .3s;
+    left: 1%;
+bottom: -13% !important;
+}
+
+.ic5res3:hover .ic5yazi{
+    transition: .3s;
+    left: 1%;
+bottom: -13% !important;
+}
+    
+.ic5yazi h2{
+    color: #ff5e15;
+    font-weight: 400;
+}
+    
+.ic5yazi h1{
+    font-weight: 400;
+}
