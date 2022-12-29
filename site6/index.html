@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme</title>
+
+    <!--CSS-->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/listing.css">
+    <link rel="stylesheet" href="css/text.css">
+
+
+
+    <!--JS-->
+
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/listing.js"></script>
+    <script src="js/category.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none !important;
+            scroll-behavior: smooth;
+            list-style-type: none;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="menu" id="menu">
+        <div class="menuic" id="menuic">
+            <div class="icon" id="icon"></div>
+            <div class="menuldis">
+                <span class="menudisp"><span class="fa-solid fa-bars fa-3x" id="spn" onclick="click()"></span><span
+                        class="fa-solid fa-xmark fa-3x d-none" id="spn1" onclick="click1()"></span></span>
+                <ul class="menul" id="menul">
+                    <li id="menuli" class="menuli5"><a href="#" style="color: #8d99af !important;">HOME</a></li>
+                    <li id="menulix"><a href="#">CATEGORY</a></li>
+                    <li id="menulixx"><a href="#">LISTING</a></li>
+                    <li id="menulixxx"><a href="#">CONTACT US</a></li>
+                    <div>
+                        <a href="#" style="color: white !important;background-color: white;">
+                            <span id="spn"
+                                style="background-color: #8d99af;border-radius: 45%;padding: 1px 2px !important;"><i
+                                    class="fas fa-plus" style="text-align: center;"></i></span>
+
+                            <span style="color:black;">Add Your Listing</span>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="banic" style="text-align: center;">
+            <div style="font-weight: 600;color: white;">OVER 36,500+ ACTIVE LISTINGS</div>
+            <h1 style="font-size: 50px;color:white;font-weight: 700;line-height: 1.2;">Find Nearby Places & Things</h1>
+            <br>
+            <div>
+                <div class="banner-form">
+                    <form class="frm">
+                        <div class="formic">
+                            <select class="form-select" onchange="this.form.click()">
+                                <option selected="">All Areas</option>
+                                <option value="New Village">New Village</option>
+                                <option value="Old Town">Old Town</option>
+                                <option value="Modern City">Modern City</option>
+                            </select>
+                            <input type="address" placeholder="    Enter a location" class="frm-input" required>
+                            <select class="form-select" onchange="this.form.click()">
+                                <option selected="">Price Range</option>
+                                <option value="$100 - $250">$100 - $250</option>
+                                <option value="$250 - $500">$250 - $500</option>
+                                <option value="$500 - $1000">$500 - $1,000</option>
+                                <option value="$1000+">$1,000 or more</option>
+                            </select>
+                        </div>
+                        <div class="divbtn"><button class="main-button">
+                                <span
+                                    style="background-color: white;border-radius:50%;color:#8d99af;padding:10px !important;"><i
+                                        class="fa fa-search"></i></span> &nbsp;&nbsp;&nbsp; Search
+                                Now</button></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="iconssssssssss">
+                <div class="iconss">
+                    <a href="#"><i class="fa fa-house fa-2x"></i></a>
+                    <br><br> <span>Apartments</span>
+                </div>
+                <div class="iconss">
+                    <a href="#"><i class="fa fa-burger fa-2x"></i></a>
+                    <br><br> <span>Food & Life</span>
+                </div>
+                <div class="iconss">
+                    <a href="#"><i class="fa fa-car-side fa-2x"></i></a>
+                    <br><br> <span>Cars</span>
+                </div>
+                <div class="iconss">
+                    <a href="#"><i class="fa fa-bag-shopping fa-2x"></i></a>
+                    <br><br> <span>Shopping</span>
+                </div>
+                <div class="iconss">
+                    <a href="#"><i class="fa fa-earth-asia fa-2x"></i></a>
+                    <br><br> <span>Traveling</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Banner finish -->
+
+    <div class="ctgrs">
+        <h1>Popular Categories</h1><br>
+        <h6>CHECK THEM OUT</h6>
+        <br><br><br>
+
+        <div class="ctgkutu">
+            <div class="ctgsoll">
+                <div class="ctgsol ct2 activ" onclick="actif1()" id="bir"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="iconnn"><i class="fa fa-house fa-2x"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="ctgyazii">Apartments</span></a></div> 
+                <div class="ctgsol ct3 disab" onclick="actif2()" id="iki" style="border-top: 1px solid black;"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="iconnn"><i class="fa fa-burger fa-2x"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="ctgyazii">Food & Life</span></a></div>
+                <div class="ctgsol ct4 disab" onclick="actif3()" id="uc" style="border-bottom: 1px solid black;border-top: 1px solid black;"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="iconnn"><i class="fa fa-car-side fa-2x"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="ctgyazii">Cars</span></a></div>
+                <div class="ctgsol ct5 disab" onclick="actif4()" id="dort" style="border-bottom: 1px solid black;"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="iconnn"><i class="fa fa-bag-shopping fa-2x"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="ctgyazii">Shopping</span></a></div>
+                <div class="ctgsol ct disab" onclick="actif5()" id="bes"><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="iconnn"><i class="fa fa-earth-asia fa-2x"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="ctgyazii">Traveling</span></a></div>
+            </div>
+            <div>
+                <div class="ctgyazi">
+                    <h4 id="ctgbaslik">One Of The Most Trending Stuffs Right Now!</h4>
+                    <br><br>
+                    <span id="ctgyaziii">Plot Listing is a responsive Bootstrap 5 website template that included 4 different HTML
+                        pages. This template is provided by TemplateMo website. You can apply this layout for your
+                        static or dynamic CMS websites.</span><br><br>
+                        <button class="ctgbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Discover More</button>
+                </div>
+                <div class="ctgimg"><img src="img/kategori.jpg" alt="" id="ctgres1" class="actv">
+                    <img src="img/tabs-image-02.jpg" alt="" id="ctgres2" class="disb">
+                    <img src="img/tabs-image-03.jpg" alt="" id="ctgres3" class="disb">
+                    <img src="img/tabs-image-04.jpg" alt="" id="ctgres4" class="disb">
+                    <img src="img/tabs-image-05.jpg" alt="" id="ctgres5" class="disb"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--LİSTİNG-->
+
+    <div class="listing"><br><br><br>
+        <h1 style="text-align: center;">Recent Listing</h1>
+        <h6 style="text-align: center;">CHECK THEM OUT</h6>
+
+
+        <!---------------------------------------------------------->
+
+        <div class="uc1" id="uc1">
+            <div class="list">
+                <div class="listres"><img src="img/listing-01.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>1. First Apartment Unit</h5>
+                    <br>
+                    <h6>by: Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$450-$950 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>2760 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;4 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;4 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(18) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="listres"><img src="img/listing-02.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>2. Another House of Gaming</h5>
+                    <br>
+                    <h6>by: Top Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$1,400-$3,500 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>3650 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;4 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;3 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(24) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="listres"><img src="img/listing-03.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>3. Secret Place Hidden House</h5>
+                    <br>
+                    <h6>by: Best Property</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$1,500-$3,600 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>5500 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;4 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;3 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(36) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------->
+
+        <div class="uc2" id="uc2">
+            <div class="list">
+                <div class="listres"><img src="img/listing-04.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>4. Sunshine Fourth Apartment</h5>
+                    <br>
+                    <h6>by: Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$3,600 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>3660 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;5 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;3 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(24) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="listres"><img src="img/listing-05.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>5. Best House Of the Town</h5>
+                    <br>
+                    <h6>by: Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$5,600 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>1750 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;6 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;3 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(32) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="listres"><img src="img/listing-06.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>6. Amazing Pool Party Villa</h5>
+                    <br>
+                    <h6>by: Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$3,850 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>3660 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;4 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;3 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(40) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------->
+
+        <div class="uc3" id="uc3">
+            <div class="list">
+                <div class="listres"><img src="img/listing-05.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>7. Sunny Apartment</h5>
+                    <br>
+                    <h6>by: Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$5,450 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>1640 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;8 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;5 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(24) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="listres"><img src="img/listing-02.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>8. Third House of Gaming</h5>
+                    <br>
+                    <h6>by: Sale Agent</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$5,520 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>1660 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;5 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;4 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(15) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="listres"><img src="img/listing-06.jpg" alt=""></div>
+                <div class="listingyazi">
+                    <h5>9. Relaxing BBQ Party Villa</h5>
+                    <br>
+                    <h6>by: Best Property</h6>
+                    <br>
+                    <span class="lsticket"><i class="fa fa-ticket"></i></span><span>$4,760 / month with taxes</span>
+                <br><br>
+                <span class="deta">Details: </span><span>2880 sq ft</span>
+                <br><br><br>
+                <i class="fa fa-bed"></i>&nbsp;&nbsp;6 Bedrooms <br><br>
+                <i class="fa fa-bath"></i>&nbsp;&nbsp;4 Bathrooms
+            </div>
+                <div class="listyildiz">
+                    <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(20) Reviews</span></div>
+                    <br><button class="listbtn"><span><i class="fa fa-eye"></i></span> &nbsp;&nbsp;&nbsp;Contact Now</button>
+                </div>
+            </div>
+        </div>
+            <button class="listbtni" style="margin-left: 44vw;" onclick="goster1()">1</button><button class="listbtni" onclick="goster2()">2</button><button class="listbtni" onclick="goster3()">3</button>
+
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!---Açıklama-->
+
+    <div style="padding: 3vw 8vw;height: 200px;">
+        <div style="width: 33%;float: left;height: 200px;">
+            <img src="img/black-logo.png" alt="" style="display: block;margin-bottom: 20px;">
+            If you consider that Plot Listing template is useful for your website, please support us a little via PayPal.
+        </div>
+        <div style="width: 33%;float: left;height: 200px;text-align: center;" class="aciklama">
+            <h4 style="color: #8d99af;">Helpful Links</h4>
+            <a href="#">Categories</a>
+            <a href="#">About Us</a>
+            <a href="#">Reviews</a>
+            <a href="#">Awards</a>
+            <a href="#">Listing</a>
+            <a href="#">Useful Sites</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div style="width: 33%;float: left;height: 200px;text-align: center;" class="aciklama">
+            <h4 style="color: #8d99af;">Contact Us</h4>
+            <span style="width: 100%;">27th Street of New Town, Digital Villa</span>
+            <a href="#">010-020-0340</a>
+            <a href="#">090-080-0760</a>
+        </div>
+    </div><br>
+    <br>
+    <hr>
+    <br>
+    <div style="text-align: center;">
+    <span style="width: 100%;">Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.</span>
+    <br>
+    <span style="width: 100%;">Design: Muhammet Eren Çelik</span><br><br>
+    </div>
+</body>
+
+</html>

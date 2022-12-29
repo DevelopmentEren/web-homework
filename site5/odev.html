@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" sizes="32x32">
+    <title>Giriş Yapınız!</title>
+    <style>
+        table{
+            width: 100%;
+            height: 800px;
+        }
+        td{
+            width: 33.3%;
+        }
+        body{
+            background-image: url('bg3.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+  color: aqua;
+        }
+        img{
+            height: 32px;
+            width: 32px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+           <td rowspan="3">
+            <div style="height: 100%;width: 100%; border: 1px solid transparent;">
+                <br><br><br><br>
+                <h1 style="color: red;text-align:center;">Kayıt Ol!</h1>
+<br><br><br>
+                <form action="" method="get">
+                    <label style="margin-left: 15%;">Kullanıcı Adınızı Giriniz : </label> <input type="text" id="tb1" required> <br><br>
+                    <label style="margin-left: 15%;">Şifrenizi Giriniz : </label> <input type="password" id="p1" style="margin-left: 9.7%;" required><br><br>
+                    <label style="margin-left: 15%;">Şifrenizi Tekrar Giriniz : </label> <input type="password" id="p2" style="margin-left: 1%;" required><br><br>
+                    <label style="margin-left: 15%;">Doğum Tarihinizi Seçiniz : </label> <input type="date" id="dt1"><br><br>
+                    <label style="margin-left: 15%;">Cinsiyetinizi Seçiniz : </label> <input type="radio" name="r1" id="rb1"style="margin-left: 5%;">Erkek <input type="radio" id="rb2" name="r1">Kadın<br><br>
+                    <label style="margin-left: 15%;">Yaşınızı Giriniz : </label> <input type="number" id="n1" min="1" max="120" style="margin-left: 10%;width: 165px;"><br><br>
+                    <label style="margin-left: 15%;">Memleketinizi Giriniz : </label> <input type="text" id="tb2" style="margin-left: 2%;"> <br><br>
+                    <label style="margin-left: 15%;">Favori Renginizi Seçiniz : </label> <input type="color" id="col1"> <br><br>
+                    <label style="margin-left: 15%;">E-Postanızı Giriniz : </label> <input type="email" id="e1" style="margin-left: 5%;"> <br><br><br>
+                    <input type="button" value="Kayıt Ol!" style="margin-left: 15%;width: 325px;height: 30px;background-color: rgb(16, 59, 71);color: white;" onclick="document.location='kayitbasarili.html'">
+                </form>
+            </div>
+           </td>
+           <td rowspan="2">
+            <div style="height: 40%;width: 100%; border: 2px double white;">
+                <br><br><br><br><br>
+                <img src="logo.png" alt="" style="margin-left: 30%; height:200px;width:200px;">
+<br><br><br>
+            </div>
+           </td>
+           <td rowspan="3">
+            <div style="height: 100%;width: 100%; border: 1px solid transparent;">
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <h1 style="color: red;text-align:center;">Giriş Yap!</h1>
+<br><br><br>
+                <form action="" method="get">
+                    <label style="margin-left: 15%;">Kullanıcı Adınızı Giriniz : </label> <input type="text" id="tb1"> <br><br>
+                    <label style="margin-left: 15%;">Şifrenizi Giriniz : </label> <input type="password" id="p1" style="margin-left: 9.7%;"><br><br><br><br>
+                    <input type="button" value="Giriş Yap!" style="margin-left: 15%;width: 325px;height: 30px;background-color: rgb(16, 59, 71);color: white;" onclick="document.location='temasec.html'">
+                </form>
+            </div>
+           </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td style="height: 60%; border: 2px double white;">
+            <h1 style="color: red;text-align: center;margin-bottom: 0%;">İletişim Bilgileri</h1><br><br><br><br><br>
+            <h4 style="display: inline;">Sosyal Medya : </h4><a href="https://www.instagram.com/cmuhammeteren/" target="_blank"><img src="inst.png" id="link"></a>
+            <a href="https://twitter.com/Ereneli46844741" target="_blank"><img src="twit.png" id="link"></a>
+            <a href="https://www.facebook.com/muhammeteren.celik.3" target="_blank"><img src="face.png" id="link"></a>
+            <a href="https://discordapp.com/users/Hayalet_Avcısı#1864" target="_blank"><img src="disc.png" id="link"></a>
+            <a href="https://www.youtube.com/channel/UCl4j0NkD-XzNtdpv-uTVOVg" target="_blank"><img src="yt.png" id="link"></a> <br><br>
+           <span><a href="mailto:'iletisimadresi@gmail.com'" target="_blank" style="text-decoration: none; font-size: 32px; color: aqua;">iletisimadresi@gmail.com</a> </span><br><br>
+           <span style="font-size: 28px; color: red; text-decoration: underline;">Tüm hakları Muhammet Eren Çelik'e aittir!</span> 
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

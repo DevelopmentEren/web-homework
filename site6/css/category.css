@@ -1,0 +1,242 @@
+.ctgrs{
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-bottom: 1px solid gray;
+}
+
+.ctgrs h6{
+    color: gray;
+}
+
+.ctgrs h1, .ctgrs h6{
+    text-align: center;
+}
+
+.ctgkutu{
+    width: 80%;
+    height:80%;
+    background-color: #2b2d42;
+    margin:auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ctgimg{
+    position: absolute;
+    height: auto;
+    width: 32%;
+    right: 4%;
+    top: 7%;
+    bottom: 7%;
+}
+
+.ctgimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ctgyazi{
+    position: absolute;
+    color: white;
+    height: auto;
+    width: 30%;
+    right: 40%;
+    top: 30%;
+}
+
+.ctgbtn{
+    transition: .5s;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.ctgbtn span {
+    color: white;
+    padding: 4px;
+    background-color: #8d99af;
+    border-radius: 50%;
+}
+
+.ctgbtn:hover{
+    transition: .5s;
+    background-color: #8d99af;
+    color: white;
+}
+
+.ctgsoll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+
+.ctgsol{
+    display: block;
+    height: 20%;
+    width: 100%;
+    line-height: 110px;
+    text-align: left;
+    background-color: #8d99af;
+    cursor: pointer;
+}
+
+.ct{
+    border-bottom-left-radius:10px;
+}
+
+.ct2{
+    border-top-left-radius: 10px;
+}
+
+.ctgsol a .iconnn{
+    padding: 30px 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: #8d99af;
+}
+
+.ctgsol a{
+    color: white;
+}
+
+.ctgyazii{
+    color: white;
+}
+
+@media only screen and (max-width:1050px) {
+    .ctgyazii{
+        display: none;
+    }
+
+    .ct{
+        border:none;
+    }
+
+    .ct2{
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+    }
+
+    .ctgrs{
+    margin: auto;
+    width: 100%;
+    height: 2200px;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-bottom: 1px solid gray;
+}
+
+.ctgrs h6{
+    color: gray;
+}
+
+.ctgrs h1, .ctgrs h6{
+    text-align: center;
+}
+
+.ctgkutu{
+    width: 80%;
+    height:80%;
+    background-color: #2b2d42;
+    margin:auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ctgimg{
+    position: absolute;
+    height: 600px;
+    width: 90%;
+    top: 60%;
+}
+
+.ctgimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ctgyazi{
+    position: absolute;
+    color: white;
+    height: auto;
+    width: 100%;
+    top: 45%;
+    right:0%;
+    text-align:center;
+}
+
+.ctgbtn{
+    transition: .5s;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.ctgbtn span {
+    color: white;
+    padding: 4px;
+    background-color: #8d99af;
+    border-radius: 50%;
+}
+
+.ctgbtn:hover{
+    transition: .5s;
+    background-color: #8d99af;
+    color: white;
+}
+
+.ctgsoll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+}
+
+.ctgsol{
+    display: block;
+    height: 20%;
+    width: 100%;
+    line-height: 110px;
+    text-align: center;
+    background-color: #8d99af;
+    cursor: pointer;
+}
+
+.ctgsol a span{
+    padding: 30px 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: #8d99af;
+}
+
+.ctgsol a{
+    color: white;
+}
+}
+
+
+
+
+
+
+.activ{
+    background-color: #2b2d42 !important;
+}
+
+.actv{
+    display: block;
+}
+
+.disb{
+    display: none;
+}

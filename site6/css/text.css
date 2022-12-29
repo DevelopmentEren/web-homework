@@ -1,0 +1,11 @@
+.aciklama a{
+    transition: .5s;
+    width: 49%;
+    display: inline-block;
+}
+
+.aciklama a:hover{
+    transition: .5s;
+    color: rgba(0, 0, 0, 0.264);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.264);
+}

@@ -1,0 +1,275 @@
+.res{
+    background-image: url('../images/kod.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 45vw;
+    background-color: rgba(0,0,0,.7);
+}
+
+@media only screen and (min-width:1500px)
+{
+.restext{
+    color: white;
+    margin-left: 15vw;
+    margin-top: 15vw;
+    display: inline-block;
+}
+
+.btn1{
+    width: 10vw !important;
+    height: 3vw !important;
+}
+
+.btn2{
+    width: 10vw !important;
+    height: 3vw !important;
+}
+
+.btn1i{
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    text-decoration: none;
+    display: block;
+    line-height: 3vw;
+}
+
+.btn2i{
+    border:1px solid gray;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+    line-height: 3vw;
+}
+
+}
+
+@media only screen and (min-width:860px) and (max-width:1500px)
+{
+    .restext{
+        color: white;
+        margin-left: 10vw;
+        margin-top: 10vw;
+        display: inline-block;
+    }
+
+    .btn1{
+        width: 10vw !important;
+        height: 3vw !important;
+    }
+
+    .btn2{
+        width: 15vw !important;
+        height: 3vw !important;
+    }
+
+    .btn1i{
+        font-weight: bold;
+        border-radius: 5px;
+        color: black;
+        width: 100%;
+        height: 100%;
+        background-color: bisque;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+    
+    .btn2i{
+        border:1px solid gray;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+}
+
+@media only screen and (min-width:720px) and (max-width:860px)
+{
+    .restext{
+        color: white;
+        margin-left: 20vw;
+        margin-top: 10vw;
+        display: inline-block;
+    }
+
+    .btn1{
+        width: 20vw !important;
+        height: 3vw !important;
+    }
+
+    .btn2{
+        width: 20vw !important;
+        height: 3vw !important;
+    }
+
+    .btn1i{
+        font-weight: bold;
+        border-radius: 5px;
+        color: black;
+        width: 100%;
+        height: 100%;
+        background-color: bisque;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+    
+    .btn2i{
+        border:1px solid gray;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:720px)
+{
+    .restext{
+        color: white;
+        margin-left: 14vw;
+        margin-top: 7vw;
+        display: inline-block;
+    }
+
+    .restext pre h3{
+        font-size: 1.6vw;
+    }
+
+    .restext h3{
+        font-size: 2vw;
+    }
+
+    
+    .restext h1{
+        font-size: 5vw !important;
+    }
+
+    .btn1{
+        width: 25vw !important;
+        height: 3vw !important;
+    }
+
+    .btn2{
+        width: 25vw !important;
+        height: 3vw !important;
+    }
+
+    .btn1i{
+        font-size: 2vw;
+        font-weight: bold;
+        border-radius: 5px;
+        color: black;
+        width: 100%;
+        height: 100%;
+        background-color: bisque;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+    
+    .btn2i{
+        font-size: 2vw;
+        border:1px solid gray;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+}
+
+@media only screen and (max-width:450px)
+{
+    .restext{
+        color: white;
+        margin-left: 0vw;
+        margin-top: 10vw;
+        display: inline-block;
+    }
+
+    .restext pre h3{
+        font-size: 1.6vw;
+    }
+
+    .restext h3{
+        font-size: 2vw;
+    }
+
+    
+    .restext h1{
+        font-size: 5vw !important;
+    }
+
+    .btn1{
+        width: 25vw !important;
+        height: 3vw !important;
+    }
+
+    .btn2{
+        width: 25vw !important;
+        height: 3vw !important;
+    }
+
+    .btn1i{
+        font-size: 2vw;
+        font-weight: bold;
+        border-radius: 5px;
+        color: black;
+        width: 100%;
+        height: 100%;
+        background-color: bisque;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+    
+    .btn2i{
+        font-size: 2vw;
+        border:1px solid gray;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        text-decoration: none;
+        display: block;
+        line-height: 3vw;
+    }
+}
+
+.btn1i:hover{
+    background-color: white;
+}
+
+
+
+.btn2i:hover{
+    background-color: bisque;
+    color: black;
+}

@@ -1,0 +1,230 @@
+.banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../img/banner.jpg');
+    padding: 290px 0px 180px 0px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 820px;
+}
+
+.banner-form {
+    width: 80vw;
+    height: 50px;
+    padding: 0px 50px;
+    display: block;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.banner-form form div.formic {
+    padding: 10px 0vw;
+    background-color: white;
+    display: block;
+    float: left;
+    width: 60vw;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form-select {
+    border: none;
+    display: block;
+    width: 20vw;
+    height: 30px;
+    float: left;
+    background-color: transparent;
+    outline: none;
+}
+
+.divbtn {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 20vw;
+}
+
+.frm-input {
+    float: left;
+    display: block;
+    border: 0;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: transparent;
+    width: 20vw;
+    height: 30px;
+}
+
+.main-button {
+    width: 100%;
+    height: 100%;
+    background-color: #8d99af;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.frm {
+    width: 80vw;
+}
+
+@media only screen and (max-width:850px) and (min-width:750px) {
+    .banner-form {
+    width: 90vw;
+    height: 50px;
+    padding: 0px 50px;
+    display: block;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.banner-form form div.formic {
+    padding: 10px 0vw;
+    background-color: white;
+    display: block;
+    float: left;
+    width: 60vw;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form-select {
+    border: none;
+    display: block;
+    width: 20vw;
+    height: 30px;
+    float: left;
+    background-color: transparent;
+    outline: none;
+}
+
+.divbtn {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 23vw;
+}
+
+.frm-input {
+    float: left;
+    display: block;
+    border: 0;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: transparent;
+    width: 20vw;
+    height: 30px;
+}
+
+.main-button {
+    width: 100%;
+    height: 100%;
+    background-color: #8d99af;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.frm {
+    width: 90vw;
+}
+}
+
+@media only screen and (max-width:750px) {
+    .banner-form {
+        margin: auto;
+        width: 75%;
+        height: 270px;
+        background-color: white;
+        border-radius: 5px;
+}
+
+.banner-form form div.formic {
+    display: block;
+    width: 100%;
+    height: 130px;
+}
+
+.form-select {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    width:200%;
+    height: 40px;
+    margin-left: -50%;
+
+}
+
+.divbtn {
+    width: 200%;
+    height: auto;
+    margin: 10px -50%;
+    margin-top: 60px;
+}
+
+.frm-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    width:200%;
+    height: 40px;
+    margin-left: -50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-button {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.frm {
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+}
+
+
+/*            İCONLAR         */
+
+.iconss{
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    display: inline-block;
+    color: white;
+}
+.iconss a{
+    transition: .3s;
+    padding: 1.5vw;
+    background-color: white;
+    border-radius: 50%;
+    margin: 3vw;
+    color: #8d99af;
+}
+
+.iconss a:hover{
+    transition: .3s;
+    background-color: #343a40;
+}
+
+@media only screen and (max-width:750px) {
+    .iconss span{
+        display: none;
+    }
+}

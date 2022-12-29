@@ -1,0 +1,219 @@
+@media only screen and (min-width: 1500px) {
+    .menu {
+        height: auto;
+        width: 100%;
+        background-color: rgba(240, 240, 240, 1);
+        position: fixed;
+    }
+
+    .icon img {
+        width: 3vw;
+        padding-top: 2vw;
+        padding-left: 3vw;
+        margin-right: .5vw;
+        float: left;
+    }
+
+    .icon span a {
+        line-height: 7vw;
+        font-size: 1.6vw;
+        font-weight: bold;
+        color: black;
+    }
+
+    .icon span a:hover {
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .icon {
+        display: inline-block;
+        max-width: 37vw;
+        width: 100%;
+    }
+
+    .menubtn {
+        display: inline-block;
+        width: 61.7vw;
+    }
+
+    .menubtn ul li {
+        display: inline-block;
+    }
+
+    .menubtn ul li a {
+        background-color: rgba(240, 240, 240.9);
+        display: block;
+        color: rgba(0, 0, 0, .9);
+        font-size: 1.2vw;
+        font-weight: 600;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .menubtn ul li a:hover {
+        color: rgba(0, 0, 0, .5);
+        background-color: rgba(200, 200, 200, );
+    }
+
+    .menuimg {
+        width: 2vw;
+        height: auto;
+        display: inline-block;
+    }
+
+    .ima {
+        padding: .7vw;
+        padding-top: 1.2vw;
+        background-color: white;
+        border-radius: 1vw;
+    }
+}
+
+
+
+ @media only screen and (min-width: 850px) and (max-width:1500px){ 
+.menu {
+    height: auto;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 1);
+    position: fixed;
+}
+
+.icon img {
+    width: 3vw;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    margin-right: .5vw;
+    float: left;
+}
+
+.icon span a {
+    line-height: 7vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: black;
+}
+
+.icon span a:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+.icon {
+    display: inline-block;
+    max-width: 33vw;
+    width: 100%;
+}
+
+.menubtn {
+    display: inline-block;
+    width: 64.7vw;
+}
+
+.menubtn ul li {
+    display: inline-block;
+}
+
+.menubtn ul li a {
+    background-color: rgba(240, 240, 240.9);
+    display: block;
+    color: rgba(0, 0, 0, .9);
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.menubtn ul li a:hover {
+    color: rgba(0, 0, 0, .5);
+    background-color: rgba(200, 200, 200, );
+}
+
+.menuimg {
+    width: 2vw;
+    height: auto;
+    display: inline-block;
+}
+
+.ima {
+    padding: .7vw;
+    padding-top: 1.2vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+}
+@media only screen and (max-width:850px) {
+    .menu {
+        height: auto;
+        width: 100%;
+        background-color: rgba(240, 240, 240, 1);
+        position: fixed;
+    }
+
+    .icon img {
+        width: 3vw;
+        padding-top: 2vw;
+        padding-left: 3vw;
+        margin-right: .5vw;
+        float: left;
+    }
+
+    .icon span a {
+        line-height: 7vw;
+        font-size: 1.6vw;
+        font-weight: bold;
+        color: black;
+    }
+
+    .icon span a:hover {
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .icon {
+        display: inline-block;
+        max-width: 27vw;
+        width: 100%;
+    }
+
+    .menubtn {
+        display: inline-block;
+        width: 66.7vw;
+    }
+
+    .menubtn ul li {
+        display: inline-block;
+    }
+
+    .menubtn ul li a {
+        background-color: rgba(240, 240, 240.9);
+        display: block;
+        color: rgba(0, 0, 0, .9);
+        font-size: 1.2vw;
+        font-weight: 600;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .menubtn ul li a:hover {
+        color: rgba(0, 0, 0, .5);
+        background-color: rgba(200, 200, 200, );
+    }
+
+    .menuimg {
+        width: 2vw;
+        height: auto;
+        display: inline-block;
+    }
+
+    .ima {
+        padding: .7vw;
+        padding-top: 1.2vw;
+        background-color: white;
+        border-radius: 1vw;
+    }
+}
