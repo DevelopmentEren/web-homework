@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box !important;
+}
+
+.top-menu{
+    width: 100%;
+    display: inline-block;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    height: 60px;
+    padding: 20px 1%;
+}
+
+.navbar-in{
+    width: 90%;
+}
+
+.navbar-in form{
+    width: 35% !important;
+    height: 40px !important;
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar-in form input{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar-in form .icon{
+    width: 10%;
+    height: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+.navbar-in form:hover{
+    background-color: white;
+}
+
+.navbar-in form:hover input{
+    background-color: white;
+}
+
+.btn{
+    height: 30px;
+    line-height: 10px;
+}
+
+.iconlist{
+    text-align: left;
+    padding: 0 5%;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.iconlist:hover{
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.kesfet{
+    color: gray;
+    text-align: left;
+    padding: 0 5%;
+    font-size: 16px;
+}
+
+.topla{
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.icon1{
+    width: 15%;
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.sagic1:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
