@@ -1,0 +1,31 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    background-color: gray;
+    display: block;
+    width: 100%;
+    height: 110px;
+}
+
+.icon img{
+    width: 3vw;
+    height: 3vw;
+    display: inline-block;
+    float: left;
+}
+
+.icon{
+    width: 30vw;
+    height: 2vw;
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.icon span{
+    line-height: 56px;
+}

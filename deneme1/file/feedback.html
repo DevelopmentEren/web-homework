@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="icon" href="../images/icon.png">
+    <title>Geri Bildirim</title>
+    <style>
+        body{
+            background-image: url('../images/bg3.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<script src="../js/bootstrap.js"></script>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark w-auto">
+        <div>
+            <ul class="navbar-nav nav-item mr-auto mt-2 mt-lg-0 w-auto d-flex">
+                <img src="../images/icon.png" alt="" class="navbar-brand img-fluid mb-1" style="width: 96px; height:auto;">
+                <li class="nav-item active m-2 pt-4">
+                    <a href="Anasayfa.html" class="nav-link">Anasayfa</a>
+                </li>
+                <li class="nav-item active m-2 pt-4">
+                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                </li>
+                <li class="nav-item active m-2 pt-4">
+                    <a href="feedback.html" class="nav-link">Geri Bildirim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<br><br>
+<div class="container text-center">
+<form action="onay.html" method="post" style="border: 2px solid gray;max-width:500px;width: 100%;border-radius: 50px;background-color: gray;" class="mx-auto">
+    <h1 class="h1 text-center">Geri Bildirim</h1>
+    <label for="">İsim :</label><input type="text" name="ad" id="ad" placeholder="İsminizi giriniz.." style="margin-left: 15px;max-width: 180px;width: 100%;"><br><br>
+    <label for="">Soyad :</label><input type="text" name="soyad" id="soyad" placeholder="Soyadınızı giriniz.." style="max-width: 180px;width: 100%;"><br><br>
+<label for="" style="margin-left: 0px;">Yaş : </label><input type="number" name="yas" id="yas" min="18" max="75" placeholder="Yaşınız" style="margin-left: 20px;max-width: 180px;width: 100%;"><br><br>
+<textarea name="msj" id="msj" cols="30" rows="10" placeholder="Mesajınızı giriniz.." required style="resize: none;" class="mx-auto"></textarea><br>
+<input type="submit" value="Geri Bildirim Gönder" class="btn btn-outline-info">
+</div>
+</form>
+</body>
+
+</html>

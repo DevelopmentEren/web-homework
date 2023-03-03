@@ -1,0 +1,77 @@
+.haber{
+    position: relative;
+    width: 100%;
+    height: 40vw;
+    background-image: url('../img/kavga2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.haber span{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    bottom: 5vw;
+    left: 20vw;
+}
+
+.haber button.solok{
+    transition: .5s;
+    position: absolute;
+    left: 1vw;
+    background-color: transparent;
+    border-radius: 5px;
+    top: 19vw;
+    color: white;
+    border-color: white;
+}
+
+.haber button.sagok{
+    transition: .5s;
+    position: absolute;
+    right: 1vw;
+    background-color: transparent;
+    border-radius: 5px;
+    top: 19vw;
+    color: white;
+    border-color: white;
+}
+
+.haber button:hover{
+    transition: .5s;
+    color: rgba(255, 255, 255,.5);
+    border-color: rgba(255, 255, 255,.5);
+}
+
+.haberopac{
+    transition: .5s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.0);
+}
+
+.haberopac:hover{
+    transition: .5s;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+.haber span{
+    display: auto;
+}
+
+@media only screen and (max-width:800px) and (min-width:550px) {
+    .haber span{
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        bottom: 5vw;
+        left: 20vw;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .haber span{
+        display: none;
+    }
+}
